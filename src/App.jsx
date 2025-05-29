@@ -14,8 +14,17 @@ import App10 from "./components/App10";
 import App11 from "./components/App11";
 import App12 from "./components/App12";
 import App13 from "./components/App13";
+import App14 from "./components/App14";
+import App15 from "./components/App15";
+import App16 from "./components/App16";
+import App17 from "./components/App17";
+import App18 from "./components/App18";
+import App19 from "./components/App19";
+import App20 from "./components/App20";
+import App21 from "./components/App21";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 function App() {
@@ -36,7 +45,15 @@ function App() {
          <Route path="/app10" element={<App10 />}></Route>
          <Route path="/app11" element={<App11 />}></Route>
          <Route path="/app12" element={<App12 />}></Route>
-         <Route path="/app13" element={<App13 />}></Route>
+          <Route path="/app13" element={<App13 />}></Route>
+          <Route path="/app14" element={<App14 />}></Route>
+          <Route path="/app15" element={<App15 />}></Route>
+           <Route path="/app16" element={<App16 />}></Route>
+            <Route path="/app17" element={<App17 />}></Route>
+             <Route path="/app18" element={<App18 />}></Route>
+             <Route path="/app19" element={<App19 />}></Route>
+             <Route path="/app20" element={<App20 />}></Route>
+             <Route path="/app21" element={<App21 />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
